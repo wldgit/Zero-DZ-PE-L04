@@ -142,14 +142,15 @@ llm = ChatOllama(model=_OLLAMA_MODEL, temperature=_OLLAMA_TEMPERATURE)
 
 ### Примеры моделей в Ollama
 
-| Модель        | Описание                          | Команда загрузки    |
-|---------------|-----------------------------------|---------------------|
-| `llama3.1`    | Базовая модель по умолчанию       | `ollama pull llama3.1` |
-| `llama3.2`    | Более новая версия LLaMA          | `ollama pull llama3.2` |
+| Модель        | Описание                          | Команда загрузки          |
+|---------------|-----------------------------------|---------------------------|
+| `llama3.1`    | Базовая модель по умолчанию       | `ollama pull llama3.1`    |
+| `llama3.2`    | Более новая версия LLaMA          | `ollama pull llama3.2`    |
 | `llama3.2:1b` | Облегчённая (1B)                  | `ollama pull llama3.2:1b` |
-| `mistral`     | Альтернатива, хороший баланс      | `ollama pull mistral` |
-| `phi3`        | Компактная модель от Microsoft    | `ollama pull phi3`  |
-| `qwen2.5`     | Многоязычная модель               | `ollama pull qwen2.5` |
+| `mistral`     | Альтернатива, хороший баланс      | `ollama pull mistral`     |
+| `phi3`        | Компактная модель от Microsoft    | `ollama pull phi3`        |
+| `qwen2.5`     | Многоязычная модель               | `ollama pull qwen2.5`     |
+| `qwen3.5:4b ` | Многоязычная модель               | `ollama pull qwen3.5:4b`  |
 
 Список установленных: `ollama list`. Каталог моделей: [ollama.com/library](https://ollama.com/library).
 
