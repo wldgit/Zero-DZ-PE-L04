@@ -1,6 +1,6 @@
 # 🤖 Локальный агент на Ollama (PE_L_04)
 
-Простое консольное приложение с AI-агентом на базе LangChain/LangGraph и локальной модели Ollama (llama3.1).
+Простое консольное приложение с AI-агентом на базе LangChain/LangGraph и локальной модели Ollama (qwen3.5:4b ).
 
 ![Python](https://img.shields.io/badge/Python-3.9+-blue.svg)
 ![Ollama](https://img.shields.io/badge/Ollama-llama3.1-green.svg)
